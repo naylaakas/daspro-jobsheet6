@@ -3,7 +3,7 @@ public class Pemilihan2Percobaan221 {
 
     public static void main(String[] args) {
         Scanner input21 = new Scanner(System.in);
-        String member;
+        String member, jenisPembayaran;
         int pilihan_menu;
         double diskon,harga,total_bayar;
 
@@ -18,6 +18,8 @@ public class Pemilihan2Percobaan221 {
         pilihan_menu = input21.nextInt();
         input21.nextLine();
         System.out.print("Apakah punya member (y/n) ? = ");
+        System.out.print("pilih jenis pembayaran (cash/QRIS) : ");
+        jenisPembayaran = input21.nextLine();
         member = input21.nextLine();
         System.out.println("--------------------------------------");
 
